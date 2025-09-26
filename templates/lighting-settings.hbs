@@ -1,0 +1,20 @@
+<div>
+  <fieldset>
+    <legend>Ambient Environment</legend>
+    {{#each baseSettings}}
+    <div class="form-group">
+      <label for="{{key}}">{{name}}</label>
+      {{#if hueField}}
+      <hue-slider name="{{key}}" value="{{value}}" id="tcm-clock-{{key}}">
+        <input class="color-range" type="range" min="0" max="360" step="1" style="--color-thumb: hsl({{value}}, 100%, 50%);">
+      </hue-slider>
+      {{else if isBoolean}}
+      <input type="checkbox" name="{{key}}" {{#if value}}checked{{/if}} />
+      {{else}}
+      <input type="range" name="{{key}}" value="{{value}}" min="{{range.min}}" max="{{range.max}}" step="{{range.step}}" />
+      <span class="range-value">{{value}}</span>
+      {{/if}}
+    </div>
+    {{/each}}
+  </fieldset>
+</div>

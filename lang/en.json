@@ -1,0 +1,17 @@
+{
+  "TCMCLOCK.settings.lightingIntegration.Name": "Enable Lighting Integration (WARNING: overrides scene settings)",
+  "TCMCLOCK.settings.lightingIntegration.Hint": "Automatically adjust scene ambient lighting based on clock segments",
+  "TCMCLOCK.controls.toggleClock": "Toggle CM Clock",
+  "TCMCLOCK.controls.previousTime": "Rewind",
+  "TCMCLOCK.controls.nextTime": "Advance",
+  "TCMCLOCK.controls.editDay": "Edit Day Counter",
+  "TCMCLOCK.segments.witching": "Witching Hour",
+  "TCMCLOCK.segments.twilight": "Twilight Hour",
+  "TCMCLOCK.segments.dusk": "Dusk Hour",
+  "TCMCLOCK.segments.nightfall": "Nightfall Hour",
+  "TCMCLOCK.segments.evening": "Evening Hour",
+  "TCMCLOCK.segments.midnight": "Midnight Hour",
+  "TCMCLOCK.dialog.editNightCounter.title": "Edit Night Counter",
+  "TCMCLOCK.dialog.editNightCounter.content": "Enter the new night number:",
+  "TCMCLOCK.dialog.editNightCounter.change": "Change"
+}
