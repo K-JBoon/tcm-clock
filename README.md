@@ -10,14 +10,6 @@ Check out their amazing [Foundry VTT module](https://foundryvtt.com/packages/the
 
 - **Issues**: Report bugs or request features on [GitHub Issues](https://github.com/K-JBoon/tcm-clock/issues)
 
-## Changelog
-
-### v0.0.1
-
-- Initial release
-- Basic animations
-- Basic ambient lighting integration
-
 ## License
 
 Licensed under either of the following, at your choice:
