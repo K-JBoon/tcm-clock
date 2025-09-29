@@ -6,6 +6,16 @@ the Crooked Moon setting.
 Not affiliated with Avantris Entertainment nor Dragon Clan Studio.
 Check out their amazing [Foundry VTT module](https://foundryvtt.com/packages/the-crooked-moon-2014).
 
+## Preview
+
+![Clock Widget](readme-assets/clock.png)
+
+### Clock Animation
+![Clock Animation](readme-assets/clock-animation.mp4)
+
+### Settings
+![Settings Panel](readme-assets/settings.png)
+
 ## Support
 
 - **Issues**: Report bugs or request features on [GitHub Issues](https://github.com/K-JBoon/tcm-clock/issues)
