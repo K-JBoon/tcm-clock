@@ -1,16 +1,16 @@
 # The Crooked Moon Clock
 
-A FoundryVTT module that provides a custom clock widget for tracking time inclusion
+A FoundryVTT module that provides a custom clock widget for tracking time in
 the Crooked Moon setting.
 
 Not affiliated with Avantris Entertainment nor Dragon Clan Studio.
-Check out their amazing [Foundry VTT module](https://foundryvtt.com/packages/the-crooked-moon-2014).
+Check out their amazing Foundry VTT module [here](https://foundryvtt.com/packages/the-crooked-moon-2014).
 
 ## Preview
-
 ![Clock Widget](readme-assets/clock.png)
 
 ### Clock Animation
+https://github.com/user-attachments/assets/40599cd9-5760-4aab-805f-6947707cee9c
 
 ### Settings
 ![Settings Panel](readme-assets/settings.png)
