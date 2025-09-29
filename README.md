@@ -11,7 +11,6 @@ Check out their amazing [Foundry VTT module](https://foundryvtt.com/packages/the
 ![Clock Widget](readme-assets/clock.png)
 
 ### Clock Animation
-![Clock Animation](readme-assets/clock-animation.mp4)
 
 ### Settings
 ![Settings Panel](readme-assets/settings.png)

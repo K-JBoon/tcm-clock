@@ -1,0 +1,27 @@
+name: Publish to Foundry
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  publish_to_foundry:
+    runs-on: ubuntu-latest
+    name: Publish to Foundry
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Get release version
+        id: get-version
+        run: |
+          VERSION=${{ github.event.release.tag_name }}
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "Version: $VERSION"
+
+      - name: Publish to Foundry
+        id: publish-to-foundry-website
+        uses: cs96and/FoundryVTT-release-package@v1
+        with:
+          package-token: ${{ secrets.PACKAGE_TOKEN }}
+          manifest-url: https://github.com/${{github.repository}}/releases/download/${{steps.get-version.outputs.version}}/module.json

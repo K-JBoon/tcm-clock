@@ -17,13 +17,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Read version from file
-        id: get-version
-        run: |
-          VERSION=$(cat version.txt | tr -d '\n\r')
-          echo "version=$VERSION" >> $GITHUB_OUTPUT
-          echo "Version: $VERSION"
-
       - name: Create GitHub Release
         id: github-release
         uses: foundryvtt-dcc/foundry-release-action@main
@@ -33,10 +26,3 @@ jobs:
           manifestProtectedTrue: true
           publicRepositoryAndBranch: 'K-JBoon/tcm-clock/master'
         continue-on-error: true
-
-      - name: Publish to Foundry
-        id: publish-to-foundry-website
-        uses: cs96and/FoundryVTT-release-package@v1
-        with:
-          package-token: ${{ secrets.PACKAGE_TOKEN }}
-          manifest-url: https://github.com/${{github.repository}}/releases/download/${{steps.get-version.outputs.version}}/module.json
